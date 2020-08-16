@@ -18,22 +18,22 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
   Comando para acceder a la interfaz fastEthernet 0/0
   - int f0/0
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/R_f0.png)
   
   Comando para configurar la ip del router 
   - ip address 192.168.13.254 255.255.255.0
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/R_ip.png)
   
   Comando para activar la interfaz
   - no shutdown
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/R_activar.png)
   
   Salir de la interfaz fastEthernet 0/0
   - Exit 
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/R_exit.png)
   
   Comando para acceder al fastEthernet 0/1
   - int f0/1
@@ -48,17 +48,17 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
   Comando para activar la interfaz
   - no shutdown
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/R_activar.png)
   
   Salir de fastEthernet 0/1
   - Exit 
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/exit.png)
   
   Salir de las configuraciones
   - exit 
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/salir.png)
   
   Guardar los cambios 
   - wr 
@@ -75,17 +75,17 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
   Comando para configurar la ip 
   - ip 192.168.13.15/24 192.168.10.254
    
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/2_ip.png)
   
   Para mostrar la configuración de ip y máscara de red 
   - sh ip 
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/2_ip.png)
   
   Para guardar los cambios 
   - save 
   
-   ![image](Imagenes/3_ip.png)
+   ![image](Imagenes/2_ip.png)
 
 ### VPC3
  Comando para configurar la ip 
