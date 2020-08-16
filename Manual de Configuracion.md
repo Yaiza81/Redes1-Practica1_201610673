@@ -4,6 +4,7 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
 
 ### Topología de red 
 
+![image](Imagenes/topo.png)
 
 ## Configuraciones para la topología de Red 
   A continuación se detalla cada uno de los comandos necesarios para realizar la configuración de cada uno de los dispositivos que conforman la topología de red 
