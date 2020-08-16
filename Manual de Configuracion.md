@@ -53,12 +53,12 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
   Salir de fastEthernet 0/1
   - Exit 
   
-   ![image](Imagenes/exit.png)
+   ![image](Imagenes/R_exit.png)
   
   Salir de las configuraciones
   - exit 
   
-   ![image](Imagenes/salir.png)
+   ![image](Imagenes/R_salir.png)
   
   Guardar los cambios 
   - wr 
