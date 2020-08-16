@@ -13,86 +13,128 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
   Comando para acceder a la configuración de la terminal 
   - configure terminal 
   
+  ![image](Imagenes/R_terminal.png)
+  
   Comando para acceder a la interfaz fastEthernet 0/0
   - int f0/0
+  
+   ![image](Imagenes/3_ip.png)
   
   Comando para configurar la ip del router 
   - ip address 192.168.13.254 255.255.255.0
   
+   ![image](Imagenes/3_ip.png)
+  
   Comando para activar la interfaz
   - no shutdown
+  
+   ![image](Imagenes/3_ip.png)
   
   Salir de la interfaz fastEthernet 0/0
   - Exit 
   
+   ![image](Imagenes/3_ip.png)
+  
   Comando para acceder al fastEthernet 0/1
   - int f0/1
+  
+   ![image](Imagenes/R_f1.png)
   
   Comando para configurar la ip del router 
   - ip address 192.168.17.254 255.255.255.0
   
+   ![image](Imagenes/R_ip1.png)
+  
   Comando para activar la interfaz
   - no shutdown
+  
+   ![image](Imagenes/3_ip.png)
   
   Salir de fastEthernet 0/1
   - Exit 
   
+   ![image](Imagenes/3_ip.png)
+  
   Salir de las configuraciones
   - exit 
+  
+   ![image](Imagenes/3_ip.png)
   
   Guardar los cambios 
   - wr 
   
+   ![image](Imagenes/R_save.png)
+  
   Para mostrar la información de las interfaces
   - show ip interface brief
+  
+   ![image](Imagenes/R_show.png)
   
 
 ### VPC2
   Comando para configurar la ip 
   - ip 192.168.13.15/24 192.168.10.254
+   
+   ![image](Imagenes/3_ip.png)
   
   Para mostrar la configuración de ip y máscara de red 
   - sh ip 
   
+   ![image](Imagenes/3_ip.png)
+  
   Para guardar los cambios 
   - save 
+  
+   ![image](Imagenes/3_ip.png)
 
 ### VPC3
  Comando para configurar la ip 
   - ip 192.168.17.15/24 192.168.10.254
   
+  ![image](Imagenes/3_ip.png)
+  
   Para mostrar la configuración de ip y máscara de red 
-  - sh ip 
+  - sh ip
+  
+  ![image](Imagenes/3_show.png)
   
   Para guardar los cambios 
   - save
+
+  ![image](Imagenes/3_save.png)
 
 ### VPC4
  Comando para configurar la ip 
   - ip 192.168.17.30/24 192.168.10.254
   
+   ![image](Imagenes/4_ip.png)
+  
   Para mostrar la configuración de ip y máscara de red 
   - sh ip 
   
+   ![image](Imagenes/4_show.png)
+  
   Para guardar los cambios 
   - save
+  
+   ![image](Imagenes/4_save.png)
 
 ### linux-1
-  Entrar al panel de control 
+  Entrar al panel de control y seleccionar Network 
   
-  Seleccionar Network 
+   ![image](Imagenes/panel.png)
   
-  Ingresar la siguiente ip
-  
-  
-  Al darle enter los espacios se llenan automaticamente 
+  Ingresar la siguiente ip, al darle enter los espacios se llenan automaticamente
+    
+   ![image](Imagenes/network.png)
   
   Aplicar y Salir 
-  
-  
+
   Abrir la terminal 
    Comando para mostrar la configuración 
    - ifconfig 
+   
+   ![image](Imagenes/ifconfig.png)
    
    
     
