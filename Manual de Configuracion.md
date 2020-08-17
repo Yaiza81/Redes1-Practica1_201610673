@@ -136,7 +136,16 @@ Se solicita configurar y administrar los dispositivos de una infraestructura de 
    
    ![image](Imagenes/ifconfig.png)
    
-   
+### Comprobar  el estado de la conexión 
+  ping ip 
+  - ping 192.168.13.15
+  - ping 192.168.13.30
+  - ping 192.168.17.30
+  - ping 192.168.17.15
+  
+  ![image](Imagenes/ping1.png)
+  
+  ![image](Imagenes/ping2.png)
     
 
 
